@@ -1,0 +1,98 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.login-heading {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.518);
+    font-size: 3.5rem !important;
+    margin-bottom: 2rem;
+}
+
+.login-select {
+    width: 50%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.login-select:focus{
+    border: 3px solid rgb(44, 209, 231);
+}
+.login-select option:checked{
+    background-color: rgb(44, 209, 231);
+}
+
+.login-form {
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-fields {
+    margin-top: 1.5rem;
+}
+
+.login-fields h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.login-fields input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.login-button {
+    text-align: center;
+    height: 2.2em;
+    width: 100%;
+    background-color: rgb(235, 211, 55) !important;
+    border: none !important;
+    border-radius: 4px !important;
+    color: #fff !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: rgb(192, 173, 48) !important;
+}
+
+.login-register {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.login-register span {
+    color: rgb(235, 211, 55) !important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .login-select {
+        width: 80%;
+    }
+
+    .login-button {
+        width: 100%;
+    }
+
+    .login-register {
+        margin-top: 0.5rem;
+    }
+}

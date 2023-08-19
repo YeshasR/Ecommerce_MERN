@@ -1,0 +1,130 @@
+body {
+  font-family: 'Tektur', cursive !important;
+  background-color: black ;
+  color: white !important;
+}
+
+.navbar-brandimg{
+  mix-blend-mode:lighten ;
+}
+
+img {
+  width: 30%;
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: rotate(360deg) scale(1.1);
+}
+
+/* Search Bar */
+#searchbar {
+  width: 18rem !important;
+  border-radius: 0 0 0 12px;
+  border: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+#searchbar:focus {
+  width: 20rem !important;
+  background-color: rgba(42, 119, 235, 0.2);
+}
+
+/* Search Button */
+#searchbtn {
+  margin-left: 0;
+  border: none !important;
+  background-color: rgb(90, 189, 255);
+  border-radius: 0 12px 0 0;
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+#searchbtn:hover {
+  background-color: rgb(6, 115, 187);
+  transform: translateY(-3px);
+}
+
+#searchbtn:active {
+  border: none !important;
+}
+
+/* Login Button */
+#log {
+  background-color: rgb(90, 189, 255);
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+#log:hover {
+  background-color: rgb(6, 115, 187);
+  transform: translateY(-3px);
+}
+
+/* Cart Icon */
+.cart {
+  color: rgb(90, 189, 255) !important;
+  font-size: 1.5em;
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.cart:hover {
+  color: rgb(6, 115, 187) !important;
+  transform: scale(1.2);
+}
+
+/* Toggle Button */
+.custom-toggler {
+  border: none;
+  outline: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0.4em;
+  right: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.custom-toggler:hover {
+  transform: scale(1.2) rotate(90deg);
+}
+
+/* Navigation Bar */
+.custom-nav {
+  background-color: rgba(235, 235, 235, 0.7);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-nav:hover {
+  background-color: rgba(235, 235, 235, 1);
+}
+
+/* NavLink */
+NavLink {
+  background-color: rgba(235, 235, 235, 0.7) !important;
+  transition: background-color 0.3s ease-in-out;
+}
+
+NavLink:hover {
+  background-color: rgba(6, 115, 187, 0.8) !important;
+}
+
+/* Profile Picture */
+.nav-profile-pic {
+  margin-bottom: -9px;
+  margin-top: -20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  box-shadow: none !important;
+  border: none !important;
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-profile-pic:hover {
+  transform: scale(1.1) rotate(-15deg);
+}

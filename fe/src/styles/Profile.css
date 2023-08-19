@@ -1,0 +1,84 @@
+/* Profile.css */
+
+.profile-page {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.user-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.user-details {
+    text-align: center;
+}
+
+.detail-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.detail {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.orders-panel {
+    flex: 2;
+}
+
+.orders-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.orders-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.order {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delivered {
+    background-color: #0a5f0a;
+}
+
+.pending {
+    background-color: #800000;
+}
+
+.order-number,
+.product-name,
+.order-status {
+    font-size: 18px;
+}
+
+.order-status {
+    text-transform: uppercase;
+    font-weight: bold;
+}

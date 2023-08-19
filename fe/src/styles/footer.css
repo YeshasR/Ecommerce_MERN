@@ -1,0 +1,25 @@
+.Footer{
+    background-color: rgba(0, 0, 0, 0.873);
+    color: rgba(255, 255, 255, 0.848);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.Footer>div>div>div>ul>li>a,.Footer>div>div>div>h5>a{
+    text-decoration: none;
+    color: white;
+}
+.footer-row{
+    width: 100% !important;
+}
+.footer-row>hr{
+    position: relative;
+    left: 0 !important;
+    width: 99% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+@media screen and (max-width:768px) {
+    .footer-row{
+        margin-left: -12.5% !important;
+    }
+}

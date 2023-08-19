@@ -1,0 +1,57 @@
+/* Contact Page Styles */
+
+ .contact-page {
+     margin: 0;
+     padding: 0;
+     font-family: 'Tektur', cursive !important;
+     background-color: black !important;
+     color: white !important;
+ }
+.contact-page {
+    background-color: #1c2331;
+    color: white;
+}
+
+.contact-heading {
+    color: #3498db;
+}
+
+.contact-img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.contact-form {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+}
+
+.contact-img:hover {
+    transform: scale(1.05) !important;
+}
+
+.form-heading {
+    color: #3498db;
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}

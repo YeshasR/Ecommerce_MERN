@@ -1,0 +1,47 @@
+.details-pic {
+  margin-left: 10%;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer !important;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+#order-btn {
+  outline: none;
+  font-weight: bolder;
+  width: 70%;
+  background-color: rgb(42, 119, 235);
+  &:hover {
+    outline: none;
+    background-color: rgb(6, 115, 187);
+  }
+  &:focus {
+    box-shadow: none;
+    border: none;
+  }
+}
+.review-section {
+  margin-left: 4% !important;
+  margin-top: 15% !important;
+}
+
+#rating {
+  margin-left: -4% !important;
+  margin-right: 4%;
+}
+.rating-btn {
+  background-color: rgb(42, 119, 235) !important;
+}
+.rating-btn:focus {
+  box-shadow: none;
+  border: none;
+}
+.rating-btn:active {
+  border: none;
+  scale: 0.95;
+  transition: all 0.18s ease-out;
+}

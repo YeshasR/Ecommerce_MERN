@@ -1,0 +1,86 @@
+/* Add your global styles here if any */
+
+/* Edit Product Page Styles */
+.edit-product-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #111;
+  color: #fff;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
+}
+
+.product-row {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
+}
+
+.product-row:last-child {
+  border-bottom: none;
+}
+
+.product-info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.product-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.edit-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.edit-input {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: 1px solid #555;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+}
+
+.edit-buttons button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #235ea4;
+  color: #fff;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.edit-buttons button:not(:last-child) {
+  margin-right: 5px;
+}
+
+.edit-buttons button:hover {
+  background-color: #1e4a86;
+}

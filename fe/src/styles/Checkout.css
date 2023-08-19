@@ -1,0 +1,115 @@
+/* Checkout Page CSS */
+.checkout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    background-color: #333;
+}
+
+.checkout-card {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 2rem;
+    background-color: #90ff75;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.checkout-address {
+    flex: 1;
+    padding-right: 2rem;
+    background-color: #ffffff;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.address-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.address-display {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.edit-save-button {
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-out;
+}
+
+.edit-save-button.save {
+    background-color: #0d47a1;
+}
+
+.note-text {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.go-to-cart-button {
+    background-color: #f90;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.checkout-summary {
+    flex: 1;
+    text-align: center;
+    margin-left: 1rem;
+    padding-top:0.5rem;
+    background-color: #ffffff;
+}
+
+.summary-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.total-amount {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.place-order-button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-out;
+}
+
+.place-order-button:hover {
+    background-color: #e58f00;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.place-order-button:active {
+    transform: scale(0.95);
+    transition: transform 0.2s ease-in-out;
+}

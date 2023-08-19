@@ -1,0 +1,129 @@
+/* Updated Home.css */
+#homepagebg {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  z-index: -1;
+  filter: brightness(0.2);
+}
+
+.HomeCover {
+  position: relative;
+}
+
+#logohomepage {
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  mix-blend-mode: lighten;
+}
+
+#brandmoto {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  font-family: 'Edu SA Beginner', cursive;
+  z-index: 1;
+}
+#carousel-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#carousel-heading {
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+}
+
+.feature-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.card-row {
+  padding-left: 7.3%;
+}
+
+.card {
+  width: 14rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 1rem;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.direction-sign {
+  border: 4px solid rgb(96, 156, 245);
+  background-color: black;
+  border-radius: 10%;
+  animation: pulseSign 2s infinite;
+}
+
+@keyframes pulseSign {
+
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(137, 21, 245, 0.884);
+  }
+
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(42, 119, 235, 0.9);
+  }
+}
+
+#prod-btn {
+  outline: none;
+  font-weight: bolder;
+  margin-left: 15%;
+  width: 70%;
+  background-color: rgb(85, 147, 240);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+#prod-btn:hover {
+  background-color: rgb(6, 115, 187);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  #homepagebg {
+    width: 100%;
+    height: 20rem;
+  }
+
+  #logohomepage {
+    width: 50%;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.2));
+  }
+
+  #brandmoto {
+    left: 50%;
+    font-size: 150%;
+  }
+
+  .card-hidden {
+    display: none;
+  }
+
+  .row {
+    padding-left: 23%;
+  }
+}
