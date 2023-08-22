@@ -4,13 +4,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 
-app.use(cors(
-    {
-        origin: ["https://ecommerce-mern-fe.vercel.app/"],
-        methods: ["POST", "GET", "DELETE"],
-        credentials: true
-    }
-))
+
 
 // Set a global variable for the base directory
 global.__basedir = __dirname;
